@@ -1,0 +1,36 @@
+/*登陆窗口样式*/
+body{
+	poistion: "relative";
+}
+.land{
+	background: #ccc;
+	width:300px;
+	height: 150px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-top: -75px;
+	margin-left: -150px;
+	border: 2px solid black;  
+	border-radius: 4px;
+	padding: 20px 0 0 30px;
+}
+input{
+	width:150px;
+	height: 30px;
+	border-radius: 5px;
+	border:1px solid black;
+}
+
+.pwd{
+	margin:10px 0 0 12px; 
+}
+
+.sub{
+	width:80px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin:35px 0 0 -30px;
+	background: #FCF;
+	}
