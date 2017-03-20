@@ -293,7 +293,7 @@ export default AppComponents;
 //     this.Constant.hPosRange.leftSecX[0] = -halfImgW;
 //     this.Constant.hPosRange.leftSecX[1] = halfStageW - halfImgW * 3;
 
-//     this.Constant.hPosRange.rightSecX[0] = halfStageW + halfImgW;
+//     this.Constant.hPosRange.rightSecX[0] = halfW + halfImgW;
 //     this.Constant.hPosRange.rightSecX[1] = stageW - halfImgW;
 
 //     this.Constant.hPosRange.y[0] = -halfImgH;

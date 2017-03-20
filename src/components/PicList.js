@@ -13,7 +13,7 @@ var PicHeader=React.createClass({
   getLogo(){
     return(
       <div className="picHeader-logo">
-        <a hrea="http://news.ycombinator.com/">
+        <a href="http://news.ycombinator.com/">
           <img id="picHeader-image" src={yeomanImage}/>
         </a>
       </div>

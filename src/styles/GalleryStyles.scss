@@ -14,6 +14,29 @@
 	height:100%;
 	overflow:hidden;
 	background-color: #ddd;
+
+	/*@at-root使生成为css时，将结构的内容提到结构的最外层。即让img-sec和img-figure都位于最外层，是同级的*/
+	@at-root{
+		.img-figure{
+			width: 320 px;
+			height: 360;
+			margin:0;
+			padding: 40px;
+
+			background-color: #fff;
+			box-sizing:border-box;/*令width的值包含padding*/
+		}
+
+		figcaption{
+			text-align:center;
+
+			.img-title{
+				margin:20px 0 0 0;
+				color: #a7a0a2;
+				font-size: 16px;
+			}
+		}
+	}
 }
 
 /*nav*/
