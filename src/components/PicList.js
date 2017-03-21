@@ -73,7 +73,7 @@ var PicHeader=React.createClass({
   },
   render() {
       return (
-          <div className="picHeader">
+          <div className="picHeader" >
             {this.getLogo()}
             {this.getTitle()}
             {this.getNav()}
